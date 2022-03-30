@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/React-Res-WebSite' component={Home} exact/>
-        <Route path='/React-Res-WebSite/signin' component={SignInPage} exact/>
+        <Route path='/React-Res-WebSite/' component={Home} exact/>
+        <Route path='/React-Res-WebSite/signin/' component={SignInPage} exact/>
       </Switch>
     </Router>
   );
